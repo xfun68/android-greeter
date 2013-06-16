@@ -19,13 +19,13 @@
     <file path="/strings.xml" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371398703851" ignored="false" />
     <file path="/activity_main.xml" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371412500115" ignored="false" />
     <file path="/MainActivity.java" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371416249033" ignored="false" />
-    <file path="$PROJECT_DIR$/Greeter/build/source/r/debug/com/panda/greeter/R.java" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371416568355" ignored="false" />
+    <file path="$PROJECT_DIR$/Greeter/build/source/r/debug/com/panda/greeter/R.java" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371417161794" ignored="false" />
     <file path="/Greeter.java" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371400087165" ignored="false" />
     <file path="/fragment.java" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371400090725" ignored="false" />
     <file path="/Person.java" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371400125008" ignored="false" />
     <file path="$PROJECT_DIR$/Greeter/build/res/all/debug/values/values.xml" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371412908921" ignored="false" />
     <file path="$PROJECT_DIR$/Greeter/src/main/res/values/ids.xml" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371412472594" ignored="false" />
-    <file path="$PROJECT_DIR$/Greeter/build/res/all/debug/layout/activity_main.xml" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371416568355" ignored="false" />
+    <file path="$PROJECT_DIR$/Greeter/build/res/all/debug/layout/activity_main.xml" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371417161794" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +86,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Greeter/src/main/java/com/panda/greeter/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="39" selection-start="5919" selection-end="5919" vertical-scroll-proportion="0.59876543">
+            <state line="177" column="0" selection-start="5923" selection-end="5923" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,20 +122,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Greeter/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state line="61" column="4" selection-start="2257" selection-end="2257" vertical-scroll-proportion="0.0">
+            <state line="61" column="4" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#343#365#0" expanded="true" />
                 <element signature="e#809#832#0" expanded="true" />
                 <element signature="e#1175#1195#0" expanded="true" />
                 <element signature="e#1353#1375#0" expanded="true" />
-                <element signature="e#1876#1894#0" expanded="true" />
-                <element signature="e#2128#2145#0" expanded="true" />
+                <element signature="e#2170#2188#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,8 +172,8 @@
         <option value="$PROJECT_DIR$/Greeter/src/main/java/com/panda/greeter/Greeter.java" />
         <option value="$PROJECT_DIR$/Greeter/src/main/java/com/panda/greeter/Person.java" />
         <option value="$PROJECT_DIR$/Greeter/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/Greeter/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/Greeter/src/main/java/com/panda/greeter/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Greeter/src/main/res/layout/activity_main.xml" />
       </list>
     </option>
   </component>
@@ -415,10 +414,11 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="4d00749037c1af00" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="firstavd" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -542,19 +542,19 @@
       <changelist id="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" name="Default" comment="" />
       <created>1371398448850</created>
       <updated>1371398448850</updated>
-      <workItem from="1371398467779" duration="14059000" />
+      <workItem from="1371398467779" duration="14272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14059000" />
+    <option name="totallyTimeSpent" value="14272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.6781003" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.6781003" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294964" sideWeight="0.6781003" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294964" sideWeight="0.6781003" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.6781003" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -570,7 +570,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.67027026" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32189974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32189974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -675,27 +675,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Greeter/src/main/java/com/panda/greeter/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="0" selection-start="5923" selection-end="5923" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Greeter/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="61" column="4" selection-start="2257" selection-end="2257" vertical-scroll-proportion="0.0">
+        <state line="61" column="4" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#343#365#0" expanded="true" />
             <element signature="e#809#832#0" expanded="true" />
             <element signature="e#1175#1195#0" expanded="true" />
             <element signature="e#1353#1375#0" expanded="true" />
-            <element signature="e#1876#1894#0" expanded="true" />
-            <element signature="e#2128#2145#0" expanded="true" />
+            <element signature="e#2170#2188#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Greeter/src/main/java/com/panda/greeter/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="39" selection-start="5919" selection-end="5919" vertical-scroll-proportion="0.59876543">
-          <folding />
         </state>
       </provider>
     </entry>
