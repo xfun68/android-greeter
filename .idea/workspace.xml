@@ -19,13 +19,13 @@
     <file path="/strings.xml" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371398703851" ignored="false" />
     <file path="/activity_main.xml" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371412500115" ignored="false" />
     <file path="/MainActivity.java" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371416249033" ignored="false" />
-    <file path="$PROJECT_DIR$/Greeter/build/source/r/debug/com/panda/greeter/R.java" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371417161794" ignored="false" />
+    <file path="$PROJECT_DIR$/Greeter/build/source/r/debug/com/panda/greeter/R.java" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371417343002" ignored="false" />
     <file path="/Greeter.java" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371400087165" ignored="false" />
     <file path="/fragment.java" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371400090725" ignored="false" />
     <file path="/Person.java" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371400125008" ignored="false" />
-    <file path="$PROJECT_DIR$/Greeter/build/res/all/debug/values/values.xml" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371412908921" ignored="false" />
+    <file path="$PROJECT_DIR$/Greeter/build/res/all/debug/values/values.xml" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371417343002" ignored="false" />
     <file path="$PROJECT_DIR$/Greeter/src/main/res/values/ids.xml" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371412472594" ignored="false" />
-    <file path="$PROJECT_DIR$/Greeter/build/res/all/debug/layout/activity_main.xml" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371417161794" ignored="false" />
+    <file path="$PROJECT_DIR$/Greeter/build/res/all/debug/layout/activity_main.xml" changelist="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" time="1371417343002" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,13 +128,13 @@
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state line="61" column="4" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.0">
+            <state line="63" column="4" selection-start="2357" selection-end="2357" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#343#365#0" expanded="true" />
                 <element signature="e#809#832#0" expanded="true" />
                 <element signature="e#1175#1195#0" expanded="true" />
-                <element signature="e#1353#1375#0" expanded="true" />
-                <element signature="e#2170#2188#0" expanded="true" />
+                <element signature="e#1467#1489#0" expanded="true" />
+                <element signature="e#2284#2302#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -542,16 +542,16 @@
       <changelist id="862e4e18-5ae2-4d1b-af22-07ecc2e9bc4e" name="Default" comment="" />
       <created>1371398448850</created>
       <updated>1371398448850</updated>
-      <workItem from="1371398467779" duration="14272000" />
+      <workItem from="1371398467779" duration="14445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14272000" />
+    <option name="totallyTimeSpent" value="14445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294964" sideWeight="0.6781003" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294964" sideWeight="0.6781003" order="-1" side_tool="false" content_ui="tabs" />
@@ -570,7 +570,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.67027026" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32189974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32189974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -687,13 +687,13 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="61" column="4" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.0">
+        <state line="63" column="4" selection-start="2357" selection-end="2357" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#343#365#0" expanded="true" />
             <element signature="e#809#832#0" expanded="true" />
             <element signature="e#1175#1195#0" expanded="true" />
-            <element signature="e#1353#1375#0" expanded="true" />
-            <element signature="e#2170#2188#0" expanded="true" />
+            <element signature="e#1467#1489#0" expanded="true" />
+            <element signature="e#2284#2302#0" expanded="true" />
           </folding>
         </state>
       </provider>
