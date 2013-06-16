@@ -140,7 +140,7 @@ public class MainActivity extends Activity {
             greetingView.setText("No network connection available.");
         }
 
-        greetingView.setText("Done.");
+        greetingView.setText("Downloading...");
     }
 
     private class DownloadImageTask extends AsyncTask<String, Void, Void> {
@@ -174,6 +174,8 @@ public class MainActivity extends Activity {
 
         @Override
         protected void onPostExecute(Void result) {
+            greetingView.setText("Done.");
+
             ImageView imageView = (ImageView) findViewById(R.id.imageView);
             imageView.setImageDrawable(imageDrawable);
         }
