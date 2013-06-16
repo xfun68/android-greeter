@@ -48,6 +48,8 @@
                 </string>
                 <string name="greeting" >Greeting
                 </string>
+                <string name="helloWorldImage" >Hello World Image
+                </string>
                 <string name="app_name" >Greeter
                 </string>
                 <string name="hello_world" >Hello world!
@@ -132,6 +134,9 @@ com.panda.greeter.personName
                     type="id">
 com.panda.greeter.greetToWorld
                 </item>
+                <item
+                    name="buttonImage"
+                    type="id"/>
                 <item
                     name="serverGreet"
                     type="id">

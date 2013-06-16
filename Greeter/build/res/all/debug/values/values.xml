@@ -4,6 +4,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+    <item name="buttonImage" type="id"/>
     <item name="greetToPerson" type="id">com.panda.greeter.greetToPerson</item>
     <item name="greetToWorld" type="id">com.panda.greeter.greetToWorld</item>
     <item name="greeting" type="id">com.panda.greeter.greeting</item>
@@ -15,6 +16,7 @@
     <string name="greetToPerson">Greet to Person</string>
     <string name="greetToWorld">Greet to World</string>
     <string name="greeting">Greeting</string>
+    <string name="helloWorldImage">Hello World Image</string>
     <string name="hello_world">Hello world!</string>
     <string name="personName">Enter person\'s name</string>
     <string name="serverGreets">Greeting from Server</string>

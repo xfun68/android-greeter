@@ -1,6 +1,9 @@
 package com.panda.greeter;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
@@ -9,6 +12,7 @@ import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.io.IOException;
@@ -17,6 +21,8 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.ProtocolException;
 import java.net.URL;
 
 public class MainActivity extends Activity {
@@ -53,7 +59,6 @@ public class MainActivity extends Activity {
     }
 
     public void serverGreet(View view) throws IOException {
-        String result = "Not connected.";
         String urlString = "http://example.iana.org/";
 
         ConnectivityManager connMgr = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -120,6 +125,63 @@ public class MainActivity extends Activity {
             char[] buffer = new char[len];
             reader.read(buffer);
             return new String(buffer);
+        }
+    }
+
+    public void helloWorldImage(View view) {
+        String urlString = "http://www.cocos2d-iphone.org/wiki/lib/exe/fetch.php/wiki:hello_world.jpg";
+
+        ConnectivityManager connMgr = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
+
+        if (networkInfo != null && networkInfo.isConnected()) {
+            new DownloadImageTask().execute(urlString);
+        } else {
+            greetingView.setText("No network connection available.");
+        }
+
+        greetingView.setText("Done.");
+    }
+
+    private class DownloadImageTask extends AsyncTask<String, Void, Void> {
+        private Drawable imageDrawable;
+
+        @Override
+        protected Void doInBackground(String... urls) {
+            try {
+                downloadImage(urls[0]);
+            } catch (IOException e) {
+                greetingView.setText("Unable to retrieve web page. URL may be invalid.");
+            }
+
+            return null;
+        }
+
+        private Void downloadImage(String stringUrl) throws IOException {
+            InputStream is = null;
+
+            try {
+                is = (InputStream) new URL(stringUrl).getContent();
+                imageDrawable = Drawable.createFromStream(is, "src name");
+            } finally {
+                if (is != null) {
+                    is.close();
+                }
+            }
+
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            ImageView imageView = (ImageView) findViewById(R.id.imageView);
+            imageView.setImageDrawable(imageDrawable);
+        }
+
+        private void displayImage(InputStream stream) {
+            Bitmap bitmap = BitmapFactory.decodeStream(stream);
+            ImageView imageView = (ImageView) findViewById(R.id.imageView);
+            imageView.setImageBitmap(bitmap);
         }
     }
 }

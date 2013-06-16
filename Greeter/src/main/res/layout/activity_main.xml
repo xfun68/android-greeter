@@ -46,8 +46,26 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:id="@id/greeting"
             android:gravity="center"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="10dp"
             android:layout_gravity="center"
-            android:hint="@string/greeting"/>
+            android:hint="@string/greeting"
+            android:layout_marginBottom="10dp"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/helloWorldImage"
+            android:id="@id/buttonImage"
+            android:onClick="helloWorldImage"
+            android:layout_gravity="left|center_vertical"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitXY"/>
 
 </LinearLayout>

@@ -7,6 +7,6 @@
     </string>
     <string name="hello_world" >Hello world!
     </string>
-    <string name="greetToWorld">Greet to World</string><string name="greetToPerson">Greet to Person</string><string name="greeting">Greeting</string><string name="personName">Enter person\'s name</string><string name="serverGreets">Greeting from Server</string>
+    <string name="greetToWorld">Greet to World</string><string name="greetToPerson">Greet to Person</string><string name="greeting">Greeting</string><string name="personName">Enter person\'s name</string><string name="serverGreets">Greeting from Server</string><string name="helloWorldImage">Hello World Image</string>
 
 </resources>
