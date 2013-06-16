@@ -8,11 +8,16 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
+    private TextView greetingView;
+    private Greeter greeter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        greetingView = (TextView) findViewById(R.id.greeting);
+        greeter = new Greeter();
     }
 
 
@@ -24,14 +29,14 @@ public class MainActivity extends Activity {
     }
 
     public void greetToWorld(View view) {
-        TextView greetingView = (TextView) findViewById(R.id.greeting);
-        greetingView.setText("Hello World");
+        greetingView.setText(greeter.greetToWorld());
     }
 
     public void greetToPerson(View view) {
         EditText personNameView = (EditText) findViewById(R.id.personName);
         String name = personNameView.getText().toString();
-        TextView greetingView = (TextView) findViewById(R.id.greeting);
-        greetingView.setText("Hello " + name);
+        Person person = new Person(name);
+
+        greetingView.setText(greeter.greetToPerson(person));
     }
 }
