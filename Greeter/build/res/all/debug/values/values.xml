@@ -8,6 +8,7 @@
     <item name="greetToWorld" type="id">com.panda.greeter.greetToWorld</item>
     <item name="greeting" type="id">com.panda.greeter.greeting</item>
     <item name="personName" type="id">com.panda.greeter.personName</item>
+    <item name="serverGreet" type="id">com.panda.greeter.serverGreet</item>
 
     <string name="action_settings">Settings</string>
     <string name="app_name">Greeter</string>
@@ -16,6 +17,7 @@
     <string name="greeting">Greeting</string>
     <string name="hello_world">Hello world!</string>
     <string name="personName">Enter person\'s name</string>
+    <string name="serverGreets">Greeting from Server</string>
 
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

@@ -32,12 +32,22 @@
                 android:hint="@string/personName"/>
     </LinearLayout>
 
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/serverGreets"
+            android:id="@id/serverGreet"
+            android:onClick="serverGreet"
+            android:layout_gravity="center"/>
+
     <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/greeting"
             android:id="@id/greeting"
             android:gravity="center"
-            android:layout_marginTop="160dp"/>
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:hint="@string/greeting"/>
+
 </LinearLayout>
