@@ -59,7 +59,8 @@ public class MainActivity extends Activity {
     }
 
     public void serverGreet(View view) throws IOException {
-        String urlString = "http://example.iana.org/";
+//        String urlString = "http://example.iana.org/";
+        String urlString = "http://10.0.2.2:8080/hi";
 
         ConnectivityManager connMgr = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
@@ -129,7 +130,9 @@ public class MainActivity extends Activity {
     }
 
     public void helloWorldImage(View view) {
-        String urlString = "http://www.cocos2d-iphone.org/wiki/lib/exe/fetch.php/wiki:hello_world.jpg";
+//        String urlString = "http://www.cocos2d-iphone.org/wiki/lib/exe/fetch.php/wiki:hello_world.jpg";
+//        String urlString = "http://10.0.2.2:8080/hello-world-color.png";
+        String urlString = "http://10.0.2.2:8080/hello-world.jpg";
 
         ConnectivityManager connMgr = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
